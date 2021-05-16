@@ -1,0 +1,31 @@
+/*VARIABLES*/
+$lila: #454E565B;
+$lilita: #80758d5b;
+$blanco-fondo:#FBFCFC;
+$gris-oscuro: #4E565B;
+
+
+.contenedor-pie{
+    font-family: "alegreya", serif;
+    font-size: 130%;
+    background-color: $lilita;
+    color: $gris-oscuro;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.contenedor-pie--titulo{
+    font-size: 130%;
+}
+
+.contenedor-pie--parrafo{
+    font-size: 60%;
+}
+
+.contenedor-pie a{
+    text-decoration: none;
+    color: $gris-oscuro;
+}
+.contenedor-pie a:hover{
+    color: $blanco-fondo;
+}

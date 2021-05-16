@@ -1,0 +1,71 @@
+/*VARIABLES*/
+$lila: #454E565B;
+$lilita: #80758d5b;
+$blanco-fondo:#FBFCFC;
+$gris-oscuro: #4E565B;
+
+
+/*TARJETAS*/
+.tarjeta{
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+@for $tarjeta from 1 through 4{
+    .tarjeta-#{$tarjeta}{margin: 1rem;
+        padding: 2px; font-family: "Alegreya", serif; transition: all .2s} 
+    };
+
+.tarjeta-individual {
+    width: 300px;
+    height: 440px;
+    margin: 1rem;
+    padding: 2px;
+    font-family: "Alegreya", serif;
+    transition: all .2s; }
+
+.tarjeta--btn{
+    background-color: $lila;
+    border: none;
+    transition: all 500ms ease;
+}
+
+.tarjeta--link a:hover{
+    background-color: $gris-oscuro ;
+    color: $blanco-fondo;
+}
+
+.tarjeta-1:hover{
+    background-color:$lilita;
+    color: $blanco-fondo;
+}
+
+.tarjeta-2:hover{
+    background-color:$lilita;
+    color: $blanco-fondo;
+}
+.tarjeta-3:hover{
+    background-color:$lilita;
+    color: $blanco-fondo;
+}
+.tarjeta-4:hover{
+    background-color:$lilita;
+    color: $blanco-fondo;
+}
+
+.tarjeta-individual:hover{
+        background-color:$lilita;
+        color: $blanco-fondo;
+    }   
+
+.tarjeta-individual--img{
+    align-items: center;
+    justify-items: center;
+    width: 250px;
+    height: 250px;
+}

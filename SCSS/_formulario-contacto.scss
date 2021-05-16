@@ -1,0 +1,36 @@
+/*VARIABLES*/
+$lila: #454E565B;
+$lilita: #80758d5b;
+$blanco-fondo:#FBFCFC;
+$gris-oscuro: #4E565B;
+
+/*FORMULARIO de CONTACTO*/
+
+.formulario{
+    font-family: "alegreya", serif;
+    font-size: 125%;
+    background-color: $blanco-fondo;
+    width: 90%;
+    height: 32rem;
+    margin: 1rem 4rem 4rem;
+    padding: 4rem;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.formulario--check label:hover{
+    background-color: $gris-oscuro;
+}
+
+.formulario--btn{
+    background-color: $gris-oscuro;
+    border: none;
+    transition: all 500ms ease;
+}
+
+.formulario--btn::selection{
+    background-color: $gris-oscuro ;
+    color: $blanco-fondo;
+}

@@ -1,0 +1,38 @@
+/*VARIABLES*/
+$lila: #454E565B;
+$lilita: #80758d5b;
+$blanco-fondo:#FBFCFC;
+$gris-oscuro: #4E565B;
+
+.jumbo-tron{
+    background-image: url(multimedia/fondo.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Alegreya", serif;
+    color: #434a4f; 
+    margin: 4px 10px;   
+    padding: 7rem 4rem;
+    border-radius: 3px;
+    height: 30rem;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.jumbo-tron--titulo{
+    font-family: "Alegreya", serif;
+    text-align: center;
+    align-items: center;
+}
+
+.jumbo-tron--btn{
+    background-color: $lila;
+    border: none;
+    transition: all 500ms ease;
+}
+
+.jumbo-tron--link a:hover{
+    background-color: $gris-oscuro ;
+    color: $blanco-fondo;
+}
+

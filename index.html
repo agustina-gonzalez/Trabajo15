@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Aplico BS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--incrusto css y fuente-->
+    <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+    <title>Incayuyo</title>
+    
+</head>
+<body class="container-fluid">
+<!--NAVBAR INTENTO DOS-->
+<header class="row">
+    <nav class="navbar navbar-expand-lg navbar-light encabezado col-12 justify-content-center shadow">
+        <a class="navbar-brand encabezado__logo" href="#">Incayuyo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ml-5 justify-content-end encabezado__link" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-2">
+                <li class="nav-item active pl-5">
+                <a class="nav-link encabezado__seccion" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item pl-5">
+                <a class="nav-link encabezado__seccion" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item pl-5">
+                <a class="nav-link encabezado__seccion" href="quienessomos.html">Quienes somos</a>
+                </li>
+                <li class="nav-item dropdown pl-5">
+                <a class="nav-link dropdown-toggle encabezado__seccion" href="productos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Productos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="productos.html">Manteles</a>
+                    <a class="dropdown-item" href="productos.html">Individuales</a>
+                </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<!--JUMBOTRON-->
+<section class="row mb-1 fuente jumbo-tron">
+    <div class="col-12 mt-4px ">
+        <h1 class="display-4 jumbo-tron--titulo">Incayuyo</h1>
+        <p class="lead">Incayuyo, tu tienda de decoración online, el equilibrio justo entre calidad, precio y diseño, en función de tus necesidades.</p>
+        <hr class="my-4">
+        <p>Comprá desde casa y recibí tu producto cuando y donde quieras.</p>
+        <div class="jumbo-tron--link">
+        <a class="jumbo-tron--btn btn btn-primary btn-lg" href="#" role="button">Envíos</a>
+        </div>    
+    </div>
+</section>
+<!--FIN JUMBOTRON-->
+
+<!--INICIO DE CARDS-->
+<div class="row col-12 tarjeta">
+    <div class="card tarjeta-1" style="width: 18rem;">
+        <img src="multimedia/mantel2.jpg" class="card-img-top" alt="mantel alpillera">
+        <div class="card-body">
+            <h5 class="card-title tarjeta--titulo">Mantel alpillera
+            </h5>
+            <p class="card-text tarjeta--parrafo">$2.000</p>
+            <a href="productos.html" class="btn btn-primary tarjeta--btn">Comprar</a>
+        </div>
+    </div>
+    <div class="card tarjeta-individual" style="width: 18rem;">
+        <img src="https://i.pinimg.com/originals/69/88/cd/6988cda68e593114cf8bbde002db50f9.jpg" class="card-img-top tarjeta-individual--img" alt="individual redondo flecos">
+        <div class="card-body">
+            <h5 class="card-title tarjeta--titulo">Individual circular puntilla
+            </h5>
+            <p class="card-text tarjeta--parrafo">6 x $2.300</p>
+            <a href="productos.html" class="btn btn-primary tarjeta--btn">Comprar</a>
+        </div>
+    </div>
+    <div class="card tarjeta-individual" style="width: 18rem;">
+        <img src="multimedia/individual1.png" class="card-img-top tarjeta-individual--img" alt="individual puntilla">
+        <div class="card-body">
+            <h5 class="card-title tarjeta--titulo">Individual Rebecca
+            </h5>
+            <p class="card-text tarjeta--parrafo">6 x $2.800</p>
+            <a href="productos.html" class="btn btn-primary tarjeta--btn">Comprar</a>
+        </div>
+    </div>
+    <div class="card tarjeta-4" style="width: 18rem;">
+        <img src="https://arredo.vteximg.com.br/arquivos/ids/190989-290-290/51011G06871-B_1.jpg?v=637401218960770000" class="card-img-top" alt="mantel circulos">
+        <div class="card-body">
+            <h5 class="card-title tarjeta--titulo">Mantel círculos
+            </h5>
+            <p class="card-text tarjeta--parrafo">$2.300</p>
+            <a href="productos.html" class="btn btn-primary tarjeta--btn">Comprar</a>
+        </div>
+    </div>
+</div>
+<!--FIN CARDS-->
+
+<!--CARROUSEL-->
+<section class="row justify-content-center no-gutters slider">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="multimedia/habitacion.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="multimedia/cocina.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="multimedia/boho.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+<!--FIN CARROUSEL-->
+
+
+
+    <div class="texto">
+        <p class="texto__parrafo">Tu tienda de decoración online, te ofrecemos el equilibrio justo entre precio, calidad y diseño creado especialmente para vos y para satisfacer tus gustos en función de tus necesidades</p>
+    </div>
+    
+
+<!--FORMULARIO NEWSLETTER-->
+<div>
+    <h3>Suscribite a nuestro newsletter</h3>
+    <form>
+        <div class="col mb-3">
+            <label for="exampleFormControlInput1">Nombre</label>
+            <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="col">
+            <label for="exampleFormControlInput1">Apellido</label>
+            <input type="text" class="form-control" placeholder="Apellido">
+            </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<!--FIN FORMULARIO NEWSLETTER-->
+<!-- Footer -->
+<footer class="page-footer fuente contenedor-pie mt-4px pt-4 shadow">
+    <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+        <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+            <h5 class="contenedor-pie--titulo">Incayuyo ©</h5>
+            <p class="contenedor-pie--parrafo">Copyright 2021 | Todos los derechos reservados.</p>
+        </div>
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+            <ul class="list-unstyled">
+                <li>
+                <a href="#">Contacto</a>
+                </li>
+                <li>
+                <a href="#">Envíos</a>
+                </li>
+                <li>
+                <a href="#">Preguntas frecuentes</a>
+                </li>
+                <li>
+                <a href="#">Trabajá con nosotros</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+            <ul class="list-unstyled">
+                <li>
+                <a href="#">Instagram</a>
+                </li>
+                <li>
+                <a href="#">Facebook</a>
+                </li>
+                <li>
+                <a href="#">Twitter</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Grid column -->
+    </div>
+    </div>  
+    </footer>
+<!--FIN FOOTER-->
+
+<!--JAVA SCRIPT-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

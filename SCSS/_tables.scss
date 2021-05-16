@@ -1,0 +1,20 @@
+/*VARIABLES*/
+$lila: #454E565B;
+$lilita: #80758d5b;
+$blanco-fondo:#FBFCFC;
+$gris-oscuro: #4E565B;
+
+
+table tr th
+{
+    font-family: "Alegreya", serif;
+    background-color: $lila; 
+    color: $blanco-fondo;
+    border: $gris-oscuro solid 1px;
+    border-collapse: collapse;
+}
+table td{
+    font-family: "Alegreya", serif;
+    border: $gris-oscuro solid 1px;
+    border-collapse: collapse;
+}
